@@ -41,12 +41,14 @@ def arc_cache(max_size=128, typed=False):
 
     :param max_size: maximum number of elements in the cache
     :type max_size: int
+    :param typed: cache arguments of different types separately
+    :type typed: bool
 
     ``max_size`` must be a positive integer.
 
-    If ``typed`` is True, arguments of different types will be cached separately.
-    For example, ``f(3.0)`` and ``f(3)`` will be treated as distinct calls with
-    distinct results.
+    If ``typed`` is ``True``, arguments of different types will be cached
+    separately.  For example, ``f(3.0)`` and ``f(3)`` will be treated as
+    distinct calls with distinct results.
 
     Arguments to the cached function must be hashable.
 
