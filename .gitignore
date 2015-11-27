@@ -56,3 +56,5 @@ doc/_build/
 
 # PyBuilder
 target/
+
+.DS_Store

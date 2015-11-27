@@ -3,7 +3,7 @@ arc_cache
 
 Adaptive Replacement Cache - a Python3 decorator
 
-Mostly for self-study purposes. Use at your own risk.
+Mostly for self-study purposes. Use at your own risk. Contribute at `GitHub`_.
 
 Usage
 -----
@@ -57,3 +57,4 @@ Python 3.5 (I believe) uses a C-implementation of `lru_cache`.
 .. _`ARC`: http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.5210
 .. _`Adaptive Replacement Cache`: https://en.wikipedia.org/wiki/Adaptive_replacement_cache
 .. _`lru_cache`: https://hg.python.org/cpython/file/3.4/Lib/functools.py#l384
+.. _`github`: https://github.com/jimjh/arc_cache
